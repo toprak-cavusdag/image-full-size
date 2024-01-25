@@ -10,7 +10,7 @@ const ImagePop = ({
 }) => {
   return (
     <div
-      className={`absolute-center w-full h-full flex justify-center duration-300 ${
+      className={`fixed-center w-full h-full flex justify-center duration-300 ${
         imagePopup ? 'opacity-100 z-[35]' : ' opacity-0 -z-30'
       }`}
       onClick={() => onClickHandler(!imagePopup)}
